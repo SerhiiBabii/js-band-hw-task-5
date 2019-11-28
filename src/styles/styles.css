@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+label {
+  margin: 5px auto;
+}
+
+label p {
+  padding: 0;
+  margin: 0;
+}
+
+label p:hover {
+  cursor: pointer;
+}
+
+form button {
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  margin: 0 auto;
+  border-radius: 7px;
+}
+
+form button:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+form button:active {
+  background-color: rgb(100, 100, 100);
+  color: #fff;
+}
